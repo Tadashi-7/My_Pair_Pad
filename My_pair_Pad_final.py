@@ -16,7 +16,7 @@ load_dotenv()
 # 環境変数から認証情報を取得
 SPREADSHEET_ID = os.getenv("SPREADSHEET_ID")
 PRIVATE_KEY_PATH = os.getenv("PRIVATE_KEY_PATH")
-PRIVATE_KEY_PATH = r"C:\Users\nkatada\Desktop\Tech0\0605用\gspread-test-425102-115e6f4c5062.json"
+PRIVATE_KEY_PATH = r"gspread-test-425102-115e6f4c5062.json"
 SP_SHEET     = 'tech03' # sheet名
 
 
